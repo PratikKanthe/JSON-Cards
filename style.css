@@ -35,3 +35,7 @@ body {
 .content {
   width: 80%;
 }
+
+#card-title {
+  cursor: pointer;
+}
