@@ -56,6 +56,8 @@ getcard().then(
   ({ title, subtitle, thumbnail, duration, date, views, likes }) => {
     console.log(title, subtitle, thumbnail, duration, date, views, likes);
     let cardtitle = document.getElementById("card-title");
+    let cardthumbnail = document.getElementById("card-thumbnail");
     cardtitle.innerText = title;
+    cardthumbnail.innerText = thumbnail;
   }
 );
