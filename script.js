@@ -57,7 +57,15 @@ getcard().then(
     console.log(title, subtitle, thumbnail, duration, date, views, likes);
     let cardtitle = document.getElementById("card-title");
     let cardthumbnail = document.getElementById("card-thumbnail");
+    let dur = document.getElementById("duration");
+    let viewscount = document.getElementById("views");
+    let dateofupload = document.getElementById("date");
+    let sub = document.getElementById("sub");
     cardtitle.innerText = title;
-    cardthumbnail.innerText = thumbnail;
+    dur.innerText = duration;
+    sub.innerText = subtitle;
+    viewscount.innerText = views;
+    dateofupload.innerText = date;
+    cardthumbnail.innerHTML = `<img src="${thumbnail}" class="thumb-img"/>`;
   }
 );
