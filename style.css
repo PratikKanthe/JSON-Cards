@@ -26,29 +26,36 @@ body {
 
 .flex-row {
   display: flex;
+  gap: 1rem;
+}
+.flex-row:nth-child(2) {
   gap: 0.5rem;
 }
 .upload-data {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 #sub {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .img-channle {
-  height: 25px;
+  height: 51px;
+  width: 120px;
 }
 
 .thumbnail {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
 }
 .content {
-  position: absolute;
-  left: 37%;
-  height: 30vh;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.content > img {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 #card-title {
@@ -64,9 +71,9 @@ body {
 }
 .yt-card {
   margin-top: 5px;
-  width: 18px;
-  height: 16px;
-  font-size: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
   background-color: rgba(255, 255, 255, 0.1);
   color: #aaa;
   padding: 2px;
