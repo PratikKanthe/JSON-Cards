@@ -66,6 +66,6 @@ getcard().then(
     sub.innerText = subtitle;
     viewscount.innerText = views;
     dateofupload.innerText = date;
-    cardthumbnail.innerHTML = `<img src="${thumbnail}" class="thumb-img"/>`;
+    cardthumbnail.innerHTML = `<a href="https://www.youtube.com/watch?v=Nnop2walGmM&pp=ygUGdHVtIHNl"><img src="${thumbnail}" class="thumb-img"/></a>`;
   }
 );
