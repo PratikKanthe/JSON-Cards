@@ -11,7 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #0f0f0f;
-  color: white;
+  color: #aaa;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -60,6 +60,7 @@ body {
 
 #card-title {
   cursor: pointer;
+  color: #fff;
 }
 
 .thumb-img {
